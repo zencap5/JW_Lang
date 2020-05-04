@@ -1,0 +1,38 @@
+.jw-related-btn path {
+	display: none;
+}
+.jw-related-btn {
+	background-image: url('globe.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}	
+
+.jw-related-btn:hover .jw-related-btn {
+	background-image: url("globe.svg");
+}
+
+/* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
+.jw-controlbar .jw-tooltip {
+	bottom: 70%;
+	box-shadow: none;
+}
+
+.jw-controlbar .jw-tooltip.jw-open {
+	border-radius: 5px;
+	color: #black;
+}
+
+.jw-controlbar .jw-tooltip .jw-text {
+	background-color: #black;
+	border-radius: 5px;
+	border: 0;
+}
+
+.jw-controlbar .jw-text {
+	color: #1e1e1e;
+}
+
+.jw-volume-tip,
+.jw-time-tip {
+	padding-bottom: 0;
+}
