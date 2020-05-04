@@ -2,13 +2,13 @@
 	display: none;
 }
 .jw-related-btn {
-	background-image: url('globe.svg');
+	background-image: url('assets/globe.svg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }	
 
 .jw-related-btn:hover .jw-related-btn {
-	background-image: url("globe.svg");
+	background-image: url("assets/globe.svg");
 }
 
 /* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
